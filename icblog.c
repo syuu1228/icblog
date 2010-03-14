@@ -701,7 +701,7 @@ void
 handle_signals(FILE * f)
 {
 	char            buf[128];
-	char            buf1[FILENAME_MAX + 1];
+	char            buf1[10000];
 
 	if (!sound_alarm)
 		return;
